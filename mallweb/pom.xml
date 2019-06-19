@@ -41,7 +41,7 @@
 
         <dependency>
             <groupId>base.mall.ordersapi</groupId>
-            <artifactId>orderserviceapi</artifactId>
+            <artifactId>order-service-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

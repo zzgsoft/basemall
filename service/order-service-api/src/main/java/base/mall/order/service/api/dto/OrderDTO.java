@@ -1,8 +1,8 @@
-package base.mall.orders.model;
+package base.mall.order.service.api.dto;
 
 import java.util.Date;
 
-public class OrderModel {
+public class OrderDTO {
 
     private String orderCode;
 

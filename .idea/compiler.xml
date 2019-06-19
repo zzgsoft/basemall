@@ -9,8 +9,8 @@
         <module name="basemall" />
         <module name="center" />
         <module name="mallweb" />
-        <module name="orderservice" />
-        <module name="orderserviceapi" />
+        <module name="order-service" />
+        <module name="order-service-api" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,8 +18,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="center" options="-parameters" />
       <module name="mallweb" options="-parameters" />
-      <module name="orderservice" options="-parameters" />
-      <module name="orderserviceapi" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="order-service-api" options="-parameters" />
     </option>
   </component>
 </project>

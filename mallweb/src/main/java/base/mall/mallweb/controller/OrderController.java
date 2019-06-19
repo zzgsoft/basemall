@@ -1,7 +1,7 @@
 package base.mall.mallweb.controller;
 
 
-import base.mall.orders.api.OrderAPI;
+import base.mall.order.service.api.OrderAPI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,5 +19,11 @@ public class OrderController {
             return orderApi.delete("abc")+"1212";
         }
 
+
+        @RequestMapping("/delete1")
+        public String delete1(){
+
+                return "121212-------";
+        }
 
 }

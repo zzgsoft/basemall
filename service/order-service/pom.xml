@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>base.mall.orders</groupId>
-    <artifactId>orderservice</artifactId>
+    <artifactId>order-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>orderservice</name>
+    <name>order-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -34,10 +34,9 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>base.mall.ordersapi</groupId>
-            <artifactId>orderserviceapi</artifactId>
+            <artifactId>order-service-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

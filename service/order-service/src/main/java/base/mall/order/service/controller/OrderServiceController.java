@@ -1,7 +1,8 @@
-package base.mall.orders.controller;
+package base.mall.order.service.controller;
 
-import base.mall.orders.api.OrderAPI;
-import base.mall.orders.model.OrderModel;
+
+import base.mall.order.service.api.OrderAPI;
+import base.mall.order.service.api.dto.OrderDTO;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,13 +13,13 @@ public class OrderServiceController implements OrderAPI {
 
     @PostMapping("/findorderbycode")
     @Override
-    public OrderModel findOrderByCode(String code) {
+    public OrderDTO findOrderByCode(String code) {
         return null;
     }
 
     @PostMapping("/submit")
     @Override
-    public boolean submit(OrderModel orderModel) {
+    public boolean submit(OrderDTO orderDTO) {
         return false;
     }
 

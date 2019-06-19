@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/order/ordersapi/pom.xml" />
         <option value="$PROJECT_DIR$/mallweb/pom.xml" />
         <option value="$PROJECT_DIR$/order/orderserviceapi/pom.xml" />
+        <option value="$PROJECT_DIR$/service/order-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/service/order-service/pom.xml" />
       </list>
     </option>
   </component>
