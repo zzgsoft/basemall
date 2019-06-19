@@ -469,3 +469,18 @@
 2019-06-19 14:35:00.518  INFO 12389 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
 2019-06-19 14:36:00.526  INFO 12389 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
 2019-06-19 14:37:00.530  INFO 12389 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2019-06-19 14:37:57.287  WARN 12389 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-06-19 14:38:00.536  INFO 12389 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2019-06-19 14:39:00.542  INFO 12389 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2019-06-19 14:40:00.543  INFO 12389 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-06-19 14:41:00.544  INFO 12389 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-06-19 14:42:00.548  INFO 12389 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2019-06-19 14:43:00.550  INFO 12389 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-06-19 14:44:00.461  INFO 12389 --- [Thread-19] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-CENTER with eureka with status DOWN
+2019-06-19 14:44:00.465  INFO 12389 --- [http-nio-8000-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MALL-WEB/10.60.222.203:mall-web:9001 with status DOWN (replication=false)
+2019-06-19 14:44:00.465  INFO 12389 --- [http-nio-8000-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-SERVER/10.60.222.203:order-server:8001 with status DOWN (replication=false)
+2019-06-19 14:44:00.511  INFO 12389 --- [Thread-19] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-06-19 14:44:00.525  INFO 12389 --- [Thread-19] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-06-19 14:44:00.539  INFO 12389 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 14:44:00.578  INFO 12389 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-06-19 14:44:00.579  INFO 12389 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
